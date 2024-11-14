@@ -1,0 +1,24 @@
+{
+  "name": "mslearn-retrieve-m365-data-with-msgraph-quickstart",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx http-server -c-1 -a localhost -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart/issues"
+  },
+  "homepage": "https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart#readme",
+  "dependencies": {
+    "@azure/identity": "^4.5.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "isomorphic-fetch": "^3.0.0",
+    "readline-sync": "^1.4.10"
+  }
+}
